@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Sidebar />
       <div className="ml-[224px] w-5/6">
-        <nav className="w-full h-[64px] flex justify-between items-center bg-white px-8">
+        <nav className="w-full h-[64px] flex justify-between items-center bg-white px-8 border-b-2 border-[#a5a2a2] ">
           <div className="flex">
             <p className="mr-4">Payments</p>
             <p className="text-[12px] text-[#4D4D4D] flex items-center">
@@ -62,22 +62,22 @@ export default function Home() {
           </div>
 
           <div className="flex gap-x-4 w-full">
-            <div className="w-1/2 bg-white flex-col p-5 rounded">
+            <div className="w-1/2 bg-white flex-col p-5 rounded shadow-lg">
               <p className="text-[#4D4D4D] mb-4">Online Orders</p>
               <p className="text-xl text-[#1A181E]">231</p>
             </div>
-            <div className="w-1/2 bg-white flex-col p-5 rounded">
+            <div className="w-1/2 bg-white flex-col p-5 rounded shadow-lg" >
               <p className="text-[#4D4D4D] mb-4">Amount received</p>
               <p className="text-xl text-[#1A181E]">₹ 23,92,312.19</p>
             </div>
           </div>
 
-          <div className="mt-8">
+          <div className="mt-8 ">
             <p className="text-[#1A181E] font-bold text-xl mb-5 ">
               Transactions | This Month
             </p>
-            <div className="bg-white">
-              <div className="flex justify-between m-3">
+            <div className="bg-white rounded-lg px-3 shadow-xl">
+              <div className="flex justify-between my-3">
                 <div>
                   <input
                     type="text"

@@ -81,7 +81,7 @@ const pathname=usePathname();
                 className="rounded"
               ></Image>
               <div className="flex flex-col">
-                <span className="text-[15px] font-medium">Nishyan</span>
+                <span className="text-[15px] font-medium text-white">Nishyan</span>
                 <a
                   href=""
                   className="font-normal underline text-[13px] text-opaque"
