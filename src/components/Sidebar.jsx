@@ -94,7 +94,7 @@ const pathname=usePathname();
               src="./dropdown.svg"
               width={20}
               height={20}
-              className=""
+              className="cursor-pointer"
             ></Image>
           </div>
           <div>
@@ -120,7 +120,7 @@ const pathname=usePathname();
           </div>
           <div className="flex flex-col">
             <span className="text-[13px] text-opaque">Available credits</span>
-            <span className="text-base">222.10</span>
+            <span className="text-base text-white">222.10</span>
           </div>
         </div>
       </div>

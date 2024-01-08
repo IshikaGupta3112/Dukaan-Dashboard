@@ -8,6 +8,7 @@ function Table() {
       cell: (row) => (
         <div className="text-blue-500 flex w-full justify-start">{row.id}</div>
       ),
+      sortable: true,
     },
     {
       name: "Order Date",
@@ -109,9 +110,9 @@ function Table() {
         height: "40px",
         borderRadius: "0",
       },
-      denseStyle :{
-        maxHeight: "40px"
-      }
+      denseStyle: {
+        maxHeight: "40px",
+      },
     },
   };
 
