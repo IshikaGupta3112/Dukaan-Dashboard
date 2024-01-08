@@ -4,20 +4,20 @@ function Table() {
   const columns = [
     {
       name: "Order Id",
-      selector: (row) => row.title,
+      selector: (row) => row.id,
     },
     {
       name: "Order Date",
-      selector: (row) => row.year,
+      selector: (row) => row.date,
     },
     {
-        name: "Order Amount",
-        selector: (row) => row.year,
-      },
-      {
-        name: "Transaction Fees",
-        selector: (row) => row.year,
-      },
+      name: "Order Amount",
+      selector: (row) => row.amount,
+    },
+    {
+      name: "Transaction Fees",
+      selector: (row) => row.fees,
+    },
   ];
 
   const data = [
@@ -25,12 +25,61 @@ function Table() {
       id: "#281209",
       date: "7 July, 2023",
       amount: "Rs 1278.23",
-      fees: "Rs 22"
+      fees: "Rs 22",
     },
     {
-      id: 2,
-      title: "Ghostbusters",
-      year: "1984",
+      id: "#281209",
+      date: "7 July, 2023",
+      amount: "Rs 1278.23",
+      fees: "Rs 22",
+    },
+    {
+      id: "#281209",
+      date: "7 July, 2023",
+      amount: "Rs 1278.23",
+      fees: "Rs 22",
+    },
+    {
+      id: "#281209",
+      date: "7 July, 2023",
+      amount: "Rs 1278.23",
+      fees: "Rs 22",
+    },
+    {
+      id: "#281209",
+      date: "7 July, 2023",
+      amount: "Rs 1278.23",
+      fees: "Rs 22",
+    },
+    {
+      id: "#281209",
+      date: "7 July, 2023",
+      amount: "Rs 1278.23",
+      fees: "Rs 22",
+    },
+    {
+      id: "#281209",
+      date: "7 July, 2023",
+      amount: "Rs 1278.23",
+      fees: "Rs 22",
+    },
+    {
+      id: "#281209",
+      date: "7 July, 2023",
+      amount: "Rs 1278.23",
+      fees: "Rs 22",
+    },
+    {
+      id: "#281209",
+      date: "7 July, 2023",
+      amount: "Rs 1278.23",
+      fees: "Rs 22",
+    },
+    {
+      id: "#281209",
+      date: "7 July, 2023",
+      amount: "Rs 1278.23",
+      fees: "Rs 22",
     },
   ];
 
