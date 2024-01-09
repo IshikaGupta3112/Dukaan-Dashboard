@@ -2,16 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   overflow-x: hidden;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
 
-body{
-  background-color: #D9D9D9;
+body {
+  background-color: #F2F2F260;
 }
 
 .iPdEuf {

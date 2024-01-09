@@ -11,6 +11,7 @@ module.exports = {
        "sideNavColor":"#1E2640",
        "opaque":"#FFFFFF95",
        "opaque2":"#FFFFFF10",
+       "black1":"#D9D9D9"
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

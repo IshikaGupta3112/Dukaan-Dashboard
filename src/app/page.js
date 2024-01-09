@@ -1,7 +1,7 @@
 "use client";
 
-import Sidebar from "@/components/Sidebar";
-import Table from "@/components/Table";
+import Sidebar from "../components/Sidebar";
+import Table from "../components/Table";
 import Image from "next/image";
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Sidebar />
       <div className="ml-[224px] w-5/6">
-        <nav className="w-full h-[64px] flex justify-between items-center bg-white px-8 border-b-2 border-[#a5a2a2] ">
+        <nav className="w-full h-[64px] flex justify-between items-center bg-white px-8 border-b-[1px] border-[#D9D9D9]">
           <div className="flex">
             <p className="mr-4">Payments</p>
             <p className="text-[12px] text-[#4D4D4D] flex items-center">
@@ -55,10 +55,11 @@ export default function Home() {
 
         <div className="p-8">
           <div className="flex justify-between pb-6 ">
-            <p className="text-[#1A181E] font-bold text-xl">Overview</p>
-            <select className="bg-white h-9 w-[137px] border rounded">
-              <option value="">Last Month</option>
-            </select>
+            <p className="text-[#1A181E] font-medium text-xl">Overview</p>
+            <div className="bg-white w-[137px] flex align-middle box-border p-2 rounded border-[1px] border-black1 justify-between">
+              Last Month
+              <Image src="./dropdown2.svg" width={20} height={20}></Image>
+            </div>
           </div>
 
           <div className="flex gap-x-4 w-full">
@@ -73,7 +74,7 @@ export default function Home() {
           </div>
 
           <div className="mt-8 ">
-            <p className="text-[#1A181E] font-bold text-xl mb-5 ">
+            <p className="text-[#1A181E] font-medium text-xl mb-5 ">
               Transactions | This Month
             </p>
             <div className="bg-white rounded-lg px-3 shadow-xl flex-col justify-center items-center">
@@ -114,25 +115,45 @@ export default function Home() {
               </div>
 
               <Table />
-
+              <hr></hr>
               <div className="flex w-fit m-auto my-6">
-                <button className="h-8 w-24 border rounded text-[#4D4D4D]">
-                &lt; Previous
+                <button className="h-8 w-24 border-[1px] border-[#D9D9D9] rounded text-[#4D4D4D]">
+                  &lt; Previous
                 </button>
                 <div className="flex gap-x-2 mx-6">
-                  <button className="p-1 rounded">1</button>
+                  <button className="p-1 text-[#4D4D4D] text-sm rounded">1</button>
                   <button className="p-1 rounded">...</button>
-                  <button className="text-white bg-[#146EB4] p-2 rounded">10</button>
-                  <button className="p-1 rounded">11</button>
-                  <button className="p-1 rounded">12</button>
-                  <button className="p-1 rounded">13</button>
-                  <button className="p-1 rounded">14</button>
-                  <button className="p-1 rounded">15</button>
-                  <button className="p-1 rounded">16</button>
-                  <button className="p-1 rounded">17</button>
-                  <button className="p-1 rounded">18</button>
+                  <button className="text-white text-sm bg-[#146EB4] h-7 w-7 box-border rounded">
+                    10
+                  </button>
+                  <button className="p-1 text-[#4D4D4D] text-sm rounded">
+                    11
+                  </button>
+                  <button className="p-1 text-[#4D4D4D] text-sm rounded">
+                    12
+                  </button>
+                  <button className="p-1 text-[#4D4D4D] text-sm rounded">
+                    13
+                  </button>
+                  <button className="p-1 text-[#4D4D4D]  text-sm rounded">
+                    14
+                  </button>
+                  <button className="p-1  text-[#4D4D4D] text-sm rounded">
+                    15
+                  </button>
+                  <button className="p-1 text-[#4D4D4D] text-sm rounded">
+                    16
+                  </button>
+                  <button className="p-1 text-[#4D4D4D] text-sm rounded">
+                    17
+                  </button>
+                  <button className="p-1 text-[#4D4D4D] text-sm rounded">
+                    18
+                  </button>
                 </div>
-                <button className="h-8 w-[74px] border rounded text-[#4D4D4D]">Next &gt; </button>
+                <button className="h-8 w-[74px] border-[#D9D9D9] border-[1px] rounded text-[#4D4D4D]">
+                  Next &gt;{" "}
+                </button>
               </div>
             </div>
           </div>

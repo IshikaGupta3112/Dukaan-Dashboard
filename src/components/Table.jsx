@@ -93,6 +93,60 @@ function Table() {
       amount: "Rs 1278.23",
       fees: "Rs 22",
     },
+    {
+      id: "#281209",
+      date: "7 July, 2023",
+      amount: "Rs 1278.23",
+      fees: "Rs 22",
+    },
+    {
+      id: "#281209",
+      date: "7 July, 2023",
+      amount: "Rs 1278.23",
+      fees: "Rs 22",
+    },
+    {
+      id: "#281209",
+      date: "7 July, 2023",
+      amount: "Rs 1278.23",
+      fees: "Rs 22",
+    },
+    {
+      id: "#281209",
+      date: "7 July, 2023",
+      amount: "Rs 1278.23",
+      fees: "Rs 22",
+    },
+    {
+      id: "#281209",
+      date: "7 July, 2023",
+      amount: "Rs 1278.23",
+      fees: "Rs 22",
+    },
+    {
+      id: "#281209",
+      date: "7 July, 2023",
+      amount: "Rs 1278.23",
+      fees: "Rs 22",
+    },
+    {
+      id: "#281209",
+      date: "7 July, 2023",
+      amount: "Rs 1278.23",
+      fees: "Rs 22",
+    },
+    {
+      id: "#281209",
+      date: "7 July, 2023",
+      amount: "Rs 1278.23",
+      fees: "Rs 22",
+    },
+    {
+      id: "#281209",
+      date: "7 July, 2023",
+      amount: "Rs 1278.23",
+      fees: "Rs 22",
+    },
   ];
 
   const customStyles = {
@@ -108,7 +162,7 @@ function Table() {
       style: {
         backgroundColor: "#F2F2F2",
         height: "40px",
-        borderRadius: "0",
+        borderRadius: "4px",
       },
       denseStyle: {
         maxHeight: "40px",
